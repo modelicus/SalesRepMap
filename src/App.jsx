@@ -61,7 +61,17 @@ export default function App() {
             featureMap={featureMap}
           />
         ) : (
-          <p style={{ padding: 20 }}>Loading map data...</p>
+          <div style={{
+            display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center',
+            height: '100%', gap: 12, color: '#3B5268',
+          }}>
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#3B5268" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" style={{ opacity: 0.6 }}>
+              <circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 010 20M12 2a15.3 15.3 0 000 20"/>
+            </svg>
+            <span style={{ fontFamily: 'var(--font-body)', fontSize: 12, fontWeight: 500, letterSpacing: '0.1em', textTransform: 'uppercase', color: '#3B5268' }}>
+              Ładowanie danych…
+            </span>
+          </div>
         )}
       </div>
       {featureMap && (
