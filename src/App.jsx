@@ -13,7 +13,7 @@ export default function App() {
   const [geojsonVoiv, setGeojsonVoiv] = useState(null);
   const [crmData, setCrmData] = useState(defaultCrmData);
   const [featureMap, setFeatureMap] = useState(null);
-  const [scale, setScale] = useState(1);
+  const [scale, setScale] = useState(2);
   const exportSvgRef = useRef(null);
 
   useEffect(() => {

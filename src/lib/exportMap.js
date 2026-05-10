@@ -1,6 +1,14 @@
+function serializeSvg(svgElement) {
+  // Clone so we don't mutate the live element.
+  // Remove the off-screen positioning style added for hiding the export canvas —
+  // it gets embedded in the SVG string and can confuse SVG-as-image renderers.
+  const clone = svgElement.cloneNode(true);
+  clone.removeAttribute('style');
+  return new XMLSerializer().serializeToString(clone);
+}
+
 export function downloadSVG(svgElement, filename = 'map-regiony.svg') {
-  const serializer = new XMLSerializer();
-  const svgStr = serializer.serializeToString(svgElement);
+  const svgStr = serializeSvg(svgElement);
   const blob = new Blob([svgStr], { type: 'image/svg+xml;charset=utf-8' });
   const url = URL.createObjectURL(blob);
   const a = document.createElement('a');
@@ -16,16 +24,17 @@ export async function downloadPNG(svgElement, filename = 'map-regiony.png') {
   const width = parseInt(svgElement.getAttribute('width'));
   const height = parseInt(svgElement.getAttribute('height'));
 
-  const serializer = new XMLSerializer();
-  const svgStr = serializer.serializeToString(svgElement);
-  const blob = new Blob([svgStr], { type: 'image/svg+xml;charset=utf-8' });
-  const url = URL.createObjectURL(blob);
+  const svgStr = serializeSvg(svgElement);
+
+  // Use a data URI instead of a blob URL — blob URLs for SVG are unreliable
+  // for canvas drawImage across browsers (can produce a blank white result).
+  const dataUri = `data:image/svg+xml;charset=utf-8,${encodeURIComponent(svgStr)}`;
 
   const img = new Image();
-  img.src = url;
   await new Promise((resolve, reject) => {
     img.onload = resolve;
     img.onerror = reject;
+    img.src = dataUri;
   });
 
   const canvas = document.createElement('canvas');
@@ -34,8 +43,7 @@ export async function downloadPNG(svgElement, filename = 'map-regiony.png') {
   const ctx = canvas.getContext('2d');
   ctx.fillStyle = '#ffffff';
   ctx.fillRect(0, 0, width, height);
-  ctx.drawImage(img, 0, 0);
-  URL.revokeObjectURL(url);
+  ctx.drawImage(img, 0, 0, width, height);
 
   return new Promise(resolve => {
     canvas.toBlob(pngBlob => {

@@ -2,9 +2,9 @@ import { useEffect, useRef, useState } from 'react';
 import * as d3 from 'd3';
 
 const REGION_COLORS = {
-  'Północ': '#4a90d9',
-  'Centrum': '#6ab04c',
-  'Południe': '#f0a500',
+  'Północ': '#9DC3E6',
+  'Centrum': '#A9D18E',
+  'Południe': '#FFD050',
 };
 
 const CAPITALS = [
@@ -81,13 +81,47 @@ export function MapView({ geojsonPowiaty, geojsonVoiv, featureMap }) {
       .attr('stroke-width', 1.5)
       .attr('pointer-events', 'none');
 
-    // Voivodeship name labels
+    // Voivodeship name labels — nudge away from capital city dots AND their text labels.
+    // City labels are rendered at dot+6 (x), dot+4 (y), font-size 11, extending rightward.
+    const capitalBoxes = CAPITALS.map(c => {
+      const [x, y] = projection(c.coords);
+      const labelHalfW = (c.name.length * 11 * 0.55) / 2;
+      return { dotX: x, dotY: y, labelCX: x + 6 + labelHalfW, labelCY: y + 4, labelHalfW, labelHalfH: 7 };
+    });
+
+    function voivLabelPos(feature, name) {
+      const [cx, cy] = path.centroid(feature);
+      if (isNaN(cx)) return [cx, cy];
+      const vHalfW = (name.length * 11 * 0.55) / 2;
+      const vHalfH = 7;
+      // Try progressively larger offsets in all directions before giving up.
+      const offsets = [
+        [0, 0],
+        [0, -16], [0, 16], [-16, 0], [16, 0],
+        [-16, -16], [16, -16], [-16, 16], [16, 16],
+        [0, -30], [0, 30], [-30, 0], [30, 0],
+        [-30, -20], [30, -20],
+      ];
+      for (const [dx, dy] of offsets) {
+        const px = cx + dx, py = cy + dy;
+        const conflict = capitalBoxes.some(cap => {
+          if (Math.hypot(px - cap.dotX, py - cap.dotY) < 22) return true;
+          return (
+            Math.abs(px - cap.labelCX) < vHalfW + cap.labelHalfW + 4 &&
+            Math.abs(py - cap.labelCY) < vHalfH + cap.labelHalfH + 4
+          );
+        });
+        if (!conflict) return [px, py];
+      }
+      return [cx, cy];
+    }
+
     svg.append('g')
       .selectAll('text')
       .data(geojsonVoiv.features)
       .join('text')
-      .attr('x', d => path.centroid(d)[0])
-      .attr('y', d => path.centroid(d)[1])
+      .attr('x', d => voivLabelPos(d, d.properties.NAME_1)[0])
+      .attr('y', d => voivLabelPos(d, d.properties.NAME_1)[1])
       .attr('text-anchor', 'middle')
       .attr('dominant-baseline', 'central')
       .attr('font-size', 11)

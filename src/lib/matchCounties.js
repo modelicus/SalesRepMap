@@ -8,7 +8,7 @@
  *   const featureMap = buildFeatureMap(geojson, gadmCrmMap, crmData.powiaty);
  */
 
-function splitCamelCase(s) {
+export function splitCamelCase(s) {
   return s.replace(/([a-ząćęłńóśźż])([A-ZĄĆĘŁŃÓŚŹŻ])/g, '$1 $2');
 }
 
@@ -42,7 +42,9 @@ export function buildFeatureMap(geojson, gadmCrmMap, crmPowiaty) {
       map.set(feature, null);
       continue;
     }
-    map.set(feature, crmPowiaty[crmKey] ?? null);
+    const entry = crmPowiaty[crmKey];
+    const powiat = crmKey.split('/')[1];
+    map.set(feature, entry ? { ...entry, powiat } : null);
   }
   return map;
 }

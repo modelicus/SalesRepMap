@@ -20,7 +20,7 @@ export function Controls({ scale, onScaleChange, onFileUpload, onExportSVG, onEx
 
       <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
         <span style={{ fontSize: '14px', fontWeight: 500 }}>Export scale:</span>
-        {[1, 2, 3].map(s => (
+        {[1, 2, 3, 4].map(s => (
           <button
             key={s}
             onClick={() => onScaleChange(s)}
