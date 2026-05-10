@@ -1,5 +1,6 @@
 import { useState, useEffect, useCallback } from 'react';
 import { Controls } from './components/Controls';
+import { MapView } from './components/MapView';
 import { parseExcelData } from './lib/parseExcel';
 import { buildFeatureMap } from './lib/matchCounties';
 import defaultCrmData from './data/crm-data.json';
@@ -46,10 +47,15 @@ export default function App() {
         onExportPNG={() => {/* wired in Task 9 */}}
       />
       <div style={{ flex: 1, overflow: 'hidden', position: 'relative' }}>
-        {featureMap
-          ? <p style={{ padding: 20 }}>Map ready — {geojsonPowiaty.features.length} counties loaded.</p>
-          : <p style={{ padding: 20 }}>Loading map data...</p>
-        }
+        {featureMap ? (
+          <MapView
+            geojsonPowiaty={geojsonPowiaty}
+            geojsonVoiv={geojsonVoiv}
+            featureMap={featureMap}
+          />
+        ) : (
+          <p style={{ padding: 20 }}>Loading map data...</p>
+        )}
       </div>
     </div>
   );
