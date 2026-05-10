@@ -1,3 +1,56 @@
+import { useState, useEffect, useCallback } from 'react';
+import { Controls } from './components/Controls';
+import { parseExcelData } from './lib/parseExcel';
+import { buildFeatureMap } from './lib/matchCounties';
+import defaultCrmData from './data/crm-data.json';
+import gadmCrmMap from './data/gadm-crm-map.json';
+
 export default function App() {
-  return <div style={{ padding: 20 }}>Loading...</div>;
+  const [geojsonPowiaty, setGeojsonPowiaty] = useState(null);
+  const [geojsonVoiv, setGeojsonVoiv] = useState(null);
+  const [crmData, setCrmData] = useState(defaultCrmData);
+  const [featureMap, setFeatureMap] = useState(null);
+  const [scale, setScale] = useState(1);
+
+  useEffect(() => {
+    Promise.all([
+      fetch('/poland-powiaty.geojson').then(r => r.json()),
+      fetch('/poland-voivodeships.geojson').then(r => r.json()),
+    ]).then(([powiaty, voiv]) => {
+      setGeojsonPowiaty(powiaty);
+      setGeojsonVoiv(voiv);
+    });
+  }, []);
+
+  useEffect(() => {
+    if (geojsonPowiaty && crmData) {
+      setFeatureMap(buildFeatureMap(geojsonPowiaty, gadmCrmMap, crmData.powiaty));
+    }
+  }, [geojsonPowiaty, crmData]);
+
+  const handleFileUpload = useCallback((arrayBuffer) => {
+    try {
+      setCrmData(parseExcelData(arrayBuffer));
+    } catch (e) {
+      alert(`Failed to parse Excel file: ${e.message}`);
+    }
+  }, []);
+
+  return (
+    <div style={{ display: 'flex', flexDirection: 'column', height: '100vh' }}>
+      <Controls
+        scale={scale}
+        onScaleChange={setScale}
+        onFileUpload={handleFileUpload}
+        onExportSVG={() => {/* wired in Task 9 */}}
+        onExportPNG={() => {/* wired in Task 9 */}}
+      />
+      <div style={{ flex: 1, overflow: 'hidden', position: 'relative' }}>
+        {featureMap
+          ? <p style={{ padding: 20 }}>Map ready — {geojsonPowiaty.features.length} counties loaded.</p>
+          : <p style={{ padding: 20 }}>Loading map data...</p>
+        }
+      </div>
+    </div>
+  );
 }
