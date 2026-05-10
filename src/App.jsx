@@ -1,6 +1,7 @@
-import { useState, useEffect, useCallback } from 'react';
+import { useState, useEffect, useCallback, useRef } from 'react';
 import { Controls } from './components/Controls';
 import { MapView } from './components/MapView';
+import { ExportView } from './components/ExportView';
 import { parseExcelData } from './lib/parseExcel';
 import { buildFeatureMap } from './lib/matchCounties';
 import defaultCrmData from './data/crm-data.json';
@@ -12,6 +13,7 @@ export default function App() {
   const [crmData, setCrmData] = useState(defaultCrmData);
   const [featureMap, setFeatureMap] = useState(null);
   const [scale, setScale] = useState(1);
+  const exportSvgRef = useRef(null);
 
   useEffect(() => {
     Promise.all([
@@ -57,6 +59,15 @@ export default function App() {
           <p style={{ padding: 20 }}>Loading map data...</p>
         )}
       </div>
+      {featureMap && (
+        <ExportView
+          geojsonPowiaty={geojsonPowiaty}
+          geojsonVoiv={geojsonVoiv}
+          featureMap={featureMap}
+          scale={scale}
+          svgRef={exportSvgRef}
+        />
+      )}
     </div>
   );
 }
