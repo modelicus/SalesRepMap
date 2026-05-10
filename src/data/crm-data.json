@@ -1,0 +1,1904 @@
+{
+  "powiaty": {
+    "dolnośląskie/wrocław": {
+      "region": "Południe",
+      "handlowiec": "Handlowiec 3",
+      "baza": "Rybnik"
+    },
+    "dolnośląskie/jelenia góra": {
+      "region": "Południe",
+      "handlowiec": "Handlowiec 3",
+      "baza": "Rybnik"
+    },
+    "dolnośląskie/legnica": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "dolnośląskie/wałbrzych": {
+      "region": "Południe",
+      "handlowiec": "Handlowiec 3",
+      "baza": "Rybnik"
+    },
+    "dolnośląskie/bolesławiecki": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "dolnośląskie/dzierżoniowski": {
+      "region": "Południe",
+      "handlowiec": "Handlowiec 3",
+      "baza": "Rybnik"
+    },
+    "dolnośląskie/głogowski": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "dolnośląskie/górowski": {
+      "region": "Południe",
+      "handlowiec": "Handlowiec 3",
+      "baza": "Rybnik"
+    },
+    "dolnośląskie/jaworski": {
+      "region": "Południe",
+      "handlowiec": "Handlowiec 3",
+      "baza": "Rybnik"
+    },
+    "dolnośląskie/jeleniogórski": {
+      "region": "Południe",
+      "handlowiec": "Handlowiec 3",
+      "baza": "Rybnik"
+    },
+    "dolnośląskie/kamiennogórski": {
+      "region": "Południe",
+      "handlowiec": "Handlowiec 3",
+      "baza": "Rybnik"
+    },
+    "dolnośląskie/kłodzki": {
+      "region": "Południe",
+      "handlowiec": "Handlowiec 3",
+      "baza": "Rybnik"
+    },
+    "dolnośląskie/legnicki": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "dolnośląskie/lubański": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "dolnośląskie/lubiński": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "dolnośląskie/lwówecki": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "dolnośląskie/milicki": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "dolnośląskie/oleśnicki": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "dolnośląskie/oławski": {
+      "region": "Południe",
+      "handlowiec": "Handlowiec 3",
+      "baza": "Rybnik"
+    },
+    "dolnośląskie/polkowicki": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "dolnośląskie/strzeliński": {
+      "region": "Południe",
+      "handlowiec": "Handlowiec 3",
+      "baza": "Rybnik"
+    },
+    "dolnośląskie/średzki": {
+      "region": "Południe",
+      "handlowiec": "Handlowiec 3",
+      "baza": "Rybnik"
+    },
+    "dolnośląskie/świdnicki": {
+      "region": "Południe",
+      "handlowiec": "Handlowiec 3",
+      "baza": "Rybnik"
+    },
+    "dolnośląskie/trzebnicki": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "dolnośląskie/wałbrzyski": {
+      "region": "Południe",
+      "handlowiec": "Handlowiec 3",
+      "baza": "Rybnik"
+    },
+    "dolnośląskie/wołowski": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "dolnośląskie/wrocławski": {
+      "region": "Południe",
+      "handlowiec": "Handlowiec 3",
+      "baza": "Rybnik"
+    },
+    "dolnośląskie/ząbkowicki": {
+      "region": "Południe",
+      "handlowiec": "Handlowiec 3",
+      "baza": "Rybnik"
+    },
+    "dolnośląskie/zgorzelecki": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "dolnośląskie/złotoryjski": {
+      "region": "Południe",
+      "handlowiec": "Handlowiec 3",
+      "baza": "Rybnik"
+    },
+    "kujawsko-pomorskie/bydgoszcz": {
+      "region": "Północ",
+      "handlowiec": "Handlowiec 1",
+      "baza": "Rumia"
+    },
+    "kujawsko-pomorskie/toruń": {
+      "region": "Północ",
+      "handlowiec": "Handlowiec 1",
+      "baza": "Rumia"
+    },
+    "kujawsko-pomorskie/włocławek": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "kujawsko-pomorskie/grudziądz": {
+      "region": "Północ",
+      "handlowiec": "Handlowiec 1",
+      "baza": "Rumia"
+    },
+    "kujawsko-pomorskie/aleksandrowski": {
+      "region": "Północ",
+      "handlowiec": "Handlowiec 1",
+      "baza": "Rumia"
+    },
+    "kujawsko-pomorskie/brodnicki": {
+      "region": "Północ",
+      "handlowiec": "Handlowiec 1",
+      "baza": "Rumia"
+    },
+    "kujawsko-pomorskie/bydgoski": {
+      "region": "Północ",
+      "handlowiec": "Handlowiec 1",
+      "baza": "Rumia"
+    },
+    "kujawsko-pomorskie/chełmiński": {
+      "region": "Północ",
+      "handlowiec": "Handlowiec 1",
+      "baza": "Rumia"
+    },
+    "kujawsko-pomorskie/golubsko-dobrzyński": {
+      "region": "Północ",
+      "handlowiec": "Handlowiec 1",
+      "baza": "Rumia"
+    },
+    "kujawsko-pomorskie/grudziądzki": {
+      "region": "Północ",
+      "handlowiec": "Handlowiec 1",
+      "baza": "Rumia"
+    },
+    "kujawsko-pomorskie/inowrocławski": {
+      "region": "Północ",
+      "handlowiec": "Handlowiec 1",
+      "baza": "Rumia"
+    },
+    "kujawsko-pomorskie/lipnowski": {
+      "region": "Północ",
+      "handlowiec": "Handlowiec 1",
+      "baza": "Rumia"
+    },
+    "kujawsko-pomorskie/mogileński": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "kujawsko-pomorskie/nakielski": {
+      "region": "Północ",
+      "handlowiec": "Handlowiec 1",
+      "baza": "Rumia"
+    },
+    "kujawsko-pomorskie/radziejowski": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "kujawsko-pomorskie/rypiński": {
+      "region": "Północ",
+      "handlowiec": "Handlowiec 1",
+      "baza": "Rumia"
+    },
+    "kujawsko-pomorskie/sępoleński": {
+      "region": "Północ",
+      "handlowiec": "Handlowiec 1",
+      "baza": "Rumia"
+    },
+    "kujawsko-pomorskie/świecki": {
+      "region": "Północ",
+      "handlowiec": "Handlowiec 1",
+      "baza": "Rumia"
+    },
+    "kujawsko-pomorskie/toruński": {
+      "region": "Północ",
+      "handlowiec": "Handlowiec 1",
+      "baza": "Rumia"
+    },
+    "kujawsko-pomorskie/tucholski": {
+      "region": "Północ",
+      "handlowiec": "Handlowiec 1",
+      "baza": "Rumia"
+    },
+    "kujawsko-pomorskie/wąbrzeski": {
+      "region": "Północ",
+      "handlowiec": "Handlowiec 1",
+      "baza": "Rumia"
+    },
+    "kujawsko-pomorskie/włocławski": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "kujawsko-pomorskie/żniński": {
+      "region": "Północ",
+      "handlowiec": "Handlowiec 1",
+      "baza": "Rumia"
+    },
+    "lubelskie/lublin": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "lubelskie/biała podlaska": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "lubelskie/chełm": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "lubelskie/zamość": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "lubelskie/bialski": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "lubelskie/biłgorajski": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "lubelskie/chełmski": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "lubelskie/hrubieszowski": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "lubelskie/janowski": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "lubelskie/krasnostawski": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "lubelskie/kraśnicki": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "lubelskie/lubartowski": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "lubelskie/lubelski": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "lubelskie/łęczyński": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "lubelskie/łukowski": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "lubelskie/opolski": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "lubelskie/parczewski": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "lubelskie/puławski": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "lubelskie/radzyński": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "lubelskie/rycki": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "lubelskie/świdnicki": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "lubelskie/tomaszowski": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "lubelskie/włodawski": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "lubelskie/zamojski": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "lubuskie/gorzów wielkopolski": {
+      "region": "Północ",
+      "handlowiec": "Handlowiec 1",
+      "baza": "Rumia"
+    },
+    "lubuskie/zielona góra": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "lubuskie/gorzowski": {
+      "region": "Północ",
+      "handlowiec": "Handlowiec 1",
+      "baza": "Rumia"
+    },
+    "lubuskie/krośnieński": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "lubuskie/międzyrzecki": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "lubuskie/nowosolski": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "lubuskie/słubicki": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "lubuskie/strzelecko-drezdenecki": {
+      "region": "Północ",
+      "handlowiec": "Handlowiec 1",
+      "baza": "Rumia"
+    },
+    "lubuskie/sulęciński": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "lubuskie/świebodziński": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "lubuskie/wschowski": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "lubuskie/zielonogórski": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "lubuskie/żagański": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "lubuskie/żarski": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "łódzkie/łódź": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "łódzkie/piotrków trybunalski": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "łódzkie/skierniewice": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "łódzkie/bełchatowski": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "łódzkie/brzeziński": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "łódzkie/kutnowski": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "łódzkie/łaski": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "łódzkie/łęczycki": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "łódzkie/łowicki": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "łódzkie/łódzki wschodni": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "łódzkie/opoczyński": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "łódzkie/pabianicki": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "łódzkie/pajęczański": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "łódzkie/piotrkowski": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "łódzkie/poddębicki": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "łódzkie/radomszczański": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "łódzkie/rawski": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "łódzkie/sieradzki": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "łódzkie/skierniewicki": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "łódzkie/tomaszowski": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "łódzkie/wieluński": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "łódzkie/wieruszowski": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "łódzkie/zduńskowolski": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "łódzkie/zgierski": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "małopolskie/kraków": {
+      "region": "Południe",
+      "handlowiec": "Handlowiec 3",
+      "baza": "Rybnik"
+    },
+    "małopolskie/nowy sącz": {
+      "region": "Południe",
+      "handlowiec": "Handlowiec 3",
+      "baza": "Rybnik"
+    },
+    "małopolskie/tarnów": {
+      "region": "Południe",
+      "handlowiec": "Handlowiec 3",
+      "baza": "Rybnik"
+    },
+    "małopolskie/bocheński": {
+      "region": "Południe",
+      "handlowiec": "Handlowiec 3",
+      "baza": "Rybnik"
+    },
+    "małopolskie/brzeski": {
+      "region": "Południe",
+      "handlowiec": "Handlowiec 3",
+      "baza": "Rybnik"
+    },
+    "małopolskie/chrzanowski": {
+      "region": "Południe",
+      "handlowiec": "Handlowiec 3",
+      "baza": "Rybnik"
+    },
+    "małopolskie/dąbrowski": {
+      "region": "Południe",
+      "handlowiec": "Handlowiec 3",
+      "baza": "Rybnik"
+    },
+    "małopolskie/gorlicki": {
+      "region": "Południe",
+      "handlowiec": "Handlowiec 3",
+      "baza": "Rybnik"
+    },
+    "małopolskie/krakowski": {
+      "region": "Południe",
+      "handlowiec": "Handlowiec 3",
+      "baza": "Rybnik"
+    },
+    "małopolskie/limanowski": {
+      "region": "Południe",
+      "handlowiec": "Handlowiec 3",
+      "baza": "Rybnik"
+    },
+    "małopolskie/miechowski": {
+      "region": "Południe",
+      "handlowiec": "Handlowiec 3",
+      "baza": "Rybnik"
+    },
+    "małopolskie/myślenicki": {
+      "region": "Południe",
+      "handlowiec": "Handlowiec 3",
+      "baza": "Rybnik"
+    },
+    "małopolskie/nowosądecki": {
+      "region": "Południe",
+      "handlowiec": "Handlowiec 3",
+      "baza": "Rybnik"
+    },
+    "małopolskie/nowotarski": {
+      "region": "Południe",
+      "handlowiec": "Handlowiec 3",
+      "baza": "Rybnik"
+    },
+    "małopolskie/olkuski": {
+      "region": "Południe",
+      "handlowiec": "Handlowiec 3",
+      "baza": "Rybnik"
+    },
+    "małopolskie/oświęcimski": {
+      "region": "Południe",
+      "handlowiec": "Handlowiec 3",
+      "baza": "Rybnik"
+    },
+    "małopolskie/proszowicki": {
+      "region": "Południe",
+      "handlowiec": "Handlowiec 3",
+      "baza": "Rybnik"
+    },
+    "małopolskie/suski": {
+      "region": "Południe",
+      "handlowiec": "Handlowiec 3",
+      "baza": "Rybnik"
+    },
+    "małopolskie/tarnowski": {
+      "region": "Południe",
+      "handlowiec": "Handlowiec 3",
+      "baza": "Rybnik"
+    },
+    "małopolskie/tatrzański": {
+      "region": "Południe",
+      "handlowiec": "Handlowiec 3",
+      "baza": "Rybnik"
+    },
+    "małopolskie/wadowicki": {
+      "region": "Południe",
+      "handlowiec": "Handlowiec 3",
+      "baza": "Rybnik"
+    },
+    "małopolskie/wielicki": {
+      "region": "Południe",
+      "handlowiec": "Handlowiec 3",
+      "baza": "Rybnik"
+    },
+    "mazowieckie/warszawa": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "mazowieckie/ostrołęka": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "mazowieckie/płock": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "mazowieckie/radom": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "mazowieckie/siedlce": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "mazowieckie/białobrzeski": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "mazowieckie/ciechanowski": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "mazowieckie/garwoliński": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "mazowieckie/gostyniński": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "mazowieckie/grodziski": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "mazowieckie/grójecki": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "mazowieckie/kozienicki": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "mazowieckie/legionowski": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "mazowieckie/lipski": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "mazowieckie/łosicki": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "mazowieckie/makowski": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "mazowieckie/miński": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "mazowieckie/mławski": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "mazowieckie/nowodworski": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "mazowieckie/ostrołęcki": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "mazowieckie/ostrowski": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "mazowieckie/otwocki": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "mazowieckie/piaseczyński": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "mazowieckie/płocki": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "mazowieckie/płoński": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "mazowieckie/pruszkowski": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "mazowieckie/przasnyski": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "mazowieckie/przysuski": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "mazowieckie/pułtuski": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "mazowieckie/radomski": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "mazowieckie/siedlecki": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "mazowieckie/sierpecki": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "mazowieckie/sochaczewski": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "mazowieckie/sokołowski": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "mazowieckie/szydłowiecki": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "mazowieckie/warszawski zachodni": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "mazowieckie/węgrowski": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "mazowieckie/wołomiński": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "mazowieckie/wyszkowski": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "mazowieckie/zwoleński": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "mazowieckie/żuromiński": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "mazowieckie/żyrardowski": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "opolskie/opole": {
+      "region": "Południe",
+      "handlowiec": "Handlowiec 3",
+      "baza": "Rybnik"
+    },
+    "opolskie/brzeski": {
+      "region": "Południe",
+      "handlowiec": "Handlowiec 3",
+      "baza": "Rybnik"
+    },
+    "opolskie/głubczycki": {
+      "region": "Południe",
+      "handlowiec": "Handlowiec 3",
+      "baza": "Rybnik"
+    },
+    "opolskie/kędzierzyńsko-kozielski": {
+      "region": "Południe",
+      "handlowiec": "Handlowiec 3",
+      "baza": "Rybnik"
+    },
+    "opolskie/kluczborski": {
+      "region": "Południe",
+      "handlowiec": "Handlowiec 3",
+      "baza": "Rybnik"
+    },
+    "opolskie/krapkowicki": {
+      "region": "Południe",
+      "handlowiec": "Handlowiec 3",
+      "baza": "Rybnik"
+    },
+    "opolskie/namysłowski": {
+      "region": "Południe",
+      "handlowiec": "Handlowiec 3",
+      "baza": "Rybnik"
+    },
+    "opolskie/nyski": {
+      "region": "Południe",
+      "handlowiec": "Handlowiec 3",
+      "baza": "Rybnik"
+    },
+    "opolskie/oleski": {
+      "region": "Południe",
+      "handlowiec": "Handlowiec 3",
+      "baza": "Rybnik"
+    },
+    "opolskie/opolski": {
+      "region": "Południe",
+      "handlowiec": "Handlowiec 3",
+      "baza": "Rybnik"
+    },
+    "opolskie/prudnicki": {
+      "region": "Południe",
+      "handlowiec": "Handlowiec 3",
+      "baza": "Rybnik"
+    },
+    "opolskie/strzelecki": {
+      "region": "Południe",
+      "handlowiec": "Handlowiec 3",
+      "baza": "Rybnik"
+    },
+    "podkarpackie/rzeszów": {
+      "region": "Południe",
+      "handlowiec": "Handlowiec 3",
+      "baza": "Rybnik"
+    },
+    "podkarpackie/krosno": {
+      "region": "Południe",
+      "handlowiec": "Handlowiec 3",
+      "baza": "Rybnik"
+    },
+    "podkarpackie/przemyśl": {
+      "region": "Południe",
+      "handlowiec": "Handlowiec 3",
+      "baza": "Rybnik"
+    },
+    "podkarpackie/tarnobrzeg": {
+      "region": "Południe",
+      "handlowiec": "Handlowiec 3",
+      "baza": "Rybnik"
+    },
+    "podkarpackie/bieszczadzki": {
+      "region": "Południe",
+      "handlowiec": "Handlowiec 3",
+      "baza": "Rybnik"
+    },
+    "podkarpackie/brzozowski": {
+      "region": "Południe",
+      "handlowiec": "Handlowiec 3",
+      "baza": "Rybnik"
+    },
+    "podkarpackie/dębicki": {
+      "region": "Południe",
+      "handlowiec": "Handlowiec 3",
+      "baza": "Rybnik"
+    },
+    "podkarpackie/jarosławski": {
+      "region": "Południe",
+      "handlowiec": "Handlowiec 3",
+      "baza": "Rybnik"
+    },
+    "podkarpackie/jasielski": {
+      "region": "Południe",
+      "handlowiec": "Handlowiec 3",
+      "baza": "Rybnik"
+    },
+    "podkarpackie/kolbuszowski": {
+      "region": "Południe",
+      "handlowiec": "Handlowiec 3",
+      "baza": "Rybnik"
+    },
+    "podkarpackie/krośnieński": {
+      "region": "Południe",
+      "handlowiec": "Handlowiec 3",
+      "baza": "Rybnik"
+    },
+    "podkarpackie/leski": {
+      "region": "Południe",
+      "handlowiec": "Handlowiec 3",
+      "baza": "Rybnik"
+    },
+    "podkarpackie/leżajski": {
+      "region": "Południe",
+      "handlowiec": "Handlowiec 3",
+      "baza": "Rybnik"
+    },
+    "podkarpackie/lubaczowski": {
+      "region": "Południe",
+      "handlowiec": "Handlowiec 3",
+      "baza": "Rybnik"
+    },
+    "podkarpackie/łańcucki": {
+      "region": "Południe",
+      "handlowiec": "Handlowiec 3",
+      "baza": "Rybnik"
+    },
+    "podkarpackie/mielecki": {
+      "region": "Południe",
+      "handlowiec": "Handlowiec 3",
+      "baza": "Rybnik"
+    },
+    "podkarpackie/niżański": {
+      "region": "Południe",
+      "handlowiec": "Handlowiec 3",
+      "baza": "Rybnik"
+    },
+    "podkarpackie/przemyski": {
+      "region": "Południe",
+      "handlowiec": "Handlowiec 3",
+      "baza": "Rybnik"
+    },
+    "podkarpackie/przeworski": {
+      "region": "Południe",
+      "handlowiec": "Handlowiec 3",
+      "baza": "Rybnik"
+    },
+    "podkarpackie/ropczycko-sędziszowski": {
+      "region": "Południe",
+      "handlowiec": "Handlowiec 3",
+      "baza": "Rybnik"
+    },
+    "podkarpackie/rzeszowski": {
+      "region": "Południe",
+      "handlowiec": "Handlowiec 3",
+      "baza": "Rybnik"
+    },
+    "podkarpackie/sanocki": {
+      "region": "Południe",
+      "handlowiec": "Handlowiec 3",
+      "baza": "Rybnik"
+    },
+    "podkarpackie/stalowowolski": {
+      "region": "Południe",
+      "handlowiec": "Handlowiec 3",
+      "baza": "Rybnik"
+    },
+    "podkarpackie/strzyżowski": {
+      "region": "Południe",
+      "handlowiec": "Handlowiec 3",
+      "baza": "Rybnik"
+    },
+    "podkarpackie/tarnobrzeski": {
+      "region": "Południe",
+      "handlowiec": "Handlowiec 3",
+      "baza": "Rybnik"
+    },
+    "podlaskie/białystok": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "podlaskie/łomża": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "podlaskie/suwałki": {
+      "region": "Północ",
+      "handlowiec": "Handlowiec 1",
+      "baza": "Rumia"
+    },
+    "podlaskie/augustowski": {
+      "region": "Północ",
+      "handlowiec": "Handlowiec 1",
+      "baza": "Rumia"
+    },
+    "podlaskie/białostocki": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "podlaskie/bielski": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "podlaskie/grajewski": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "podlaskie/hajnowski": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "podlaskie/kolneński": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "podlaskie/łomżyński": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "podlaskie/moniecki": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "podlaskie/sejneński": {
+      "region": "Północ",
+      "handlowiec": "Handlowiec 1",
+      "baza": "Rumia"
+    },
+    "podlaskie/siemiatycki": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "podlaskie/sokólski": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "podlaskie/suwalski": {
+      "region": "Północ",
+      "handlowiec": "Handlowiec 1",
+      "baza": "Rumia"
+    },
+    "podlaskie/wysokomazowiecki": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "podlaskie/zambrowski": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "pomorskie/gdańsk": {
+      "region": "Północ",
+      "handlowiec": "Handlowiec 1",
+      "baza": "Rumia"
+    },
+    "pomorskie/gdynia": {
+      "region": "Północ",
+      "handlowiec": "Handlowiec 1",
+      "baza": "Rumia"
+    },
+    "pomorskie/słupsk": {
+      "region": "Północ",
+      "handlowiec": "Handlowiec 1",
+      "baza": "Rumia"
+    },
+    "pomorskie/sopot": {
+      "region": "Północ",
+      "handlowiec": "Handlowiec 1",
+      "baza": "Rumia"
+    },
+    "pomorskie/bytowski": {
+      "region": "Północ",
+      "handlowiec": "Handlowiec 1",
+      "baza": "Rumia"
+    },
+    "pomorskie/chojnicki": {
+      "region": "Północ",
+      "handlowiec": "Handlowiec 1",
+      "baza": "Rumia"
+    },
+    "pomorskie/człuchowski": {
+      "region": "Północ",
+      "handlowiec": "Handlowiec 1",
+      "baza": "Rumia"
+    },
+    "pomorskie/kartuski": {
+      "region": "Północ",
+      "handlowiec": "Handlowiec 1",
+      "baza": "Rumia"
+    },
+    "pomorskie/kościerski": {
+      "region": "Północ",
+      "handlowiec": "Handlowiec 1",
+      "baza": "Rumia"
+    },
+    "pomorskie/kwidzyński": {
+      "region": "Północ",
+      "handlowiec": "Handlowiec 1",
+      "baza": "Rumia"
+    },
+    "pomorskie/lęborski": {
+      "region": "Północ",
+      "handlowiec": "Handlowiec 1",
+      "baza": "Rumia"
+    },
+    "pomorskie/malborski": {
+      "region": "Północ",
+      "handlowiec": "Handlowiec 1",
+      "baza": "Rumia"
+    },
+    "pomorskie/nowodworski": {
+      "region": "Północ",
+      "handlowiec": "Handlowiec 1",
+      "baza": "Rumia"
+    },
+    "pomorskie/gdański": {
+      "region": "Północ",
+      "handlowiec": "Handlowiec 1",
+      "baza": "Rumia"
+    },
+    "pomorskie/pucki": {
+      "region": "Północ",
+      "handlowiec": "Handlowiec 1",
+      "baza": "Rumia"
+    },
+    "pomorskie/słupski": {
+      "region": "Północ",
+      "handlowiec": "Handlowiec 1",
+      "baza": "Rumia"
+    },
+    "pomorskie/starogardzki": {
+      "region": "Północ",
+      "handlowiec": "Handlowiec 1",
+      "baza": "Rumia"
+    },
+    "pomorskie/sztumski": {
+      "region": "Północ",
+      "handlowiec": "Handlowiec 1",
+      "baza": "Rumia"
+    },
+    "pomorskie/tczewski": {
+      "region": "Północ",
+      "handlowiec": "Handlowiec 1",
+      "baza": "Rumia"
+    },
+    "pomorskie/wejherowski": {
+      "region": "Północ",
+      "handlowiec": "Handlowiec 1",
+      "baza": "Rumia"
+    },
+    "śląskie/katowice": {
+      "region": "Południe",
+      "handlowiec": "Handlowiec 3",
+      "baza": "Rybnik"
+    },
+    "śląskie/bielsko-biała": {
+      "region": "Południe",
+      "handlowiec": "Handlowiec 3",
+      "baza": "Rybnik"
+    },
+    "śląskie/bytom": {
+      "region": "Południe",
+      "handlowiec": "Handlowiec 3",
+      "baza": "Rybnik"
+    },
+    "śląskie/chorzów": {
+      "region": "Południe",
+      "handlowiec": "Handlowiec 3",
+      "baza": "Rybnik"
+    },
+    "śląskie/częstochowa": {
+      "region": "Południe",
+      "handlowiec": "Handlowiec 3",
+      "baza": "Rybnik"
+    },
+    "śląskie/dąbrowa górnicza": {
+      "region": "Południe",
+      "handlowiec": "Handlowiec 3",
+      "baza": "Rybnik"
+    },
+    "śląskie/gliwice": {
+      "region": "Południe",
+      "handlowiec": "Handlowiec 3",
+      "baza": "Rybnik"
+    },
+    "śląskie/jastrzębie-zdrój": {
+      "region": "Południe",
+      "handlowiec": "Handlowiec 3",
+      "baza": "Rybnik"
+    },
+    "śląskie/jaworzno": {
+      "region": "Południe",
+      "handlowiec": "Handlowiec 3",
+      "baza": "Rybnik"
+    },
+    "śląskie/mysłowice": {
+      "region": "Południe",
+      "handlowiec": "Handlowiec 3",
+      "baza": "Rybnik"
+    },
+    "śląskie/piekary śląskie": {
+      "region": "Południe",
+      "handlowiec": "Handlowiec 3",
+      "baza": "Rybnik"
+    },
+    "śląskie/ruda śląska": {
+      "region": "Południe",
+      "handlowiec": "Handlowiec 3",
+      "baza": "Rybnik"
+    },
+    "śląskie/rybnik": {
+      "region": "Południe",
+      "handlowiec": "Handlowiec 3",
+      "baza": "Rybnik"
+    },
+    "śląskie/siemianowice śląskie": {
+      "region": "Południe",
+      "handlowiec": "Handlowiec 3",
+      "baza": "Rybnik"
+    },
+    "śląskie/sosnowiec": {
+      "region": "Południe",
+      "handlowiec": "Handlowiec 3",
+      "baza": "Rybnik"
+    },
+    "śląskie/świętochłowice": {
+      "region": "Południe",
+      "handlowiec": "Handlowiec 3",
+      "baza": "Rybnik"
+    },
+    "śląskie/tychy": {
+      "region": "Południe",
+      "handlowiec": "Handlowiec 3",
+      "baza": "Rybnik"
+    },
+    "śląskie/zabrze": {
+      "region": "Południe",
+      "handlowiec": "Handlowiec 3",
+      "baza": "Rybnik"
+    },
+    "śląskie/żory": {
+      "region": "Południe",
+      "handlowiec": "Handlowiec 3",
+      "baza": "Rybnik"
+    },
+    "śląskie/będziński": {
+      "region": "Południe",
+      "handlowiec": "Handlowiec 3",
+      "baza": "Rybnik"
+    },
+    "śląskie/bielski": {
+      "region": "Południe",
+      "handlowiec": "Handlowiec 3",
+      "baza": "Rybnik"
+    },
+    "śląskie/bieruńsko-lędziński": {
+      "region": "Południe",
+      "handlowiec": "Handlowiec 3",
+      "baza": "Rybnik"
+    },
+    "śląskie/cieszyński": {
+      "region": "Południe",
+      "handlowiec": "Handlowiec 3",
+      "baza": "Rybnik"
+    },
+    "śląskie/częstochowski": {
+      "region": "Południe",
+      "handlowiec": "Handlowiec 3",
+      "baza": "Rybnik"
+    },
+    "śląskie/gliwicki": {
+      "region": "Południe",
+      "handlowiec": "Handlowiec 3",
+      "baza": "Rybnik"
+    },
+    "śląskie/kłobucki": {
+      "region": "Południe",
+      "handlowiec": "Handlowiec 3",
+      "baza": "Rybnik"
+    },
+    "śląskie/lubliniecki": {
+      "region": "Południe",
+      "handlowiec": "Handlowiec 3",
+      "baza": "Rybnik"
+    },
+    "śląskie/mikołowski": {
+      "region": "Południe",
+      "handlowiec": "Handlowiec 3",
+      "baza": "Rybnik"
+    },
+    "śląskie/myszkowski": {
+      "region": "Południe",
+      "handlowiec": "Handlowiec 3",
+      "baza": "Rybnik"
+    },
+    "śląskie/pszczyński": {
+      "region": "Południe",
+      "handlowiec": "Handlowiec 3",
+      "baza": "Rybnik"
+    },
+    "śląskie/raciborski": {
+      "region": "Południe",
+      "handlowiec": "Handlowiec 3",
+      "baza": "Rybnik"
+    },
+    "śląskie/rybnicki": {
+      "region": "Południe",
+      "handlowiec": "Handlowiec 3",
+      "baza": "Rybnik"
+    },
+    "śląskie/tarnogórski": {
+      "region": "Południe",
+      "handlowiec": "Handlowiec 3",
+      "baza": "Rybnik"
+    },
+    "śląskie/wodzisławski": {
+      "region": "Południe",
+      "handlowiec": "Handlowiec 3",
+      "baza": "Rybnik"
+    },
+    "śląskie/zawierciański": {
+      "region": "Południe",
+      "handlowiec": "Handlowiec 3",
+      "baza": "Rybnik"
+    },
+    "śląskie/żywiecki": {
+      "region": "Południe",
+      "handlowiec": "Handlowiec 3",
+      "baza": "Rybnik"
+    },
+    "świętokrzyskie/kielce": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "świętokrzyskie/buski": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "świętokrzyskie/jędrzejowski": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "świętokrzyskie/kazimierski": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "świętokrzyskie/kielecki": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "świętokrzyskie/konecki": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "świętokrzyskie/opatowski": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "świętokrzyskie/ostrowiecki": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "świętokrzyskie/pińczowski": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "świętokrzyskie/sandomierski": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "świętokrzyskie/skarżyski": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "świętokrzyskie/starachowicki": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "świętokrzyskie/staszowski": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "świętokrzyskie/włoszczowski": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "warmińsko-mazurskie/olsztyn": {
+      "region": "Północ",
+      "handlowiec": "Handlowiec 1",
+      "baza": "Rumia"
+    },
+    "warmińsko-mazurskie/elbląg": {
+      "region": "Północ",
+      "handlowiec": "Handlowiec 1",
+      "baza": "Rumia"
+    },
+    "warmińsko-mazurskie/bartoszycki": {
+      "region": "Północ",
+      "handlowiec": "Handlowiec 1",
+      "baza": "Rumia"
+    },
+    "warmińsko-mazurskie/braniewski": {
+      "region": "Północ",
+      "handlowiec": "Handlowiec 1",
+      "baza": "Rumia"
+    },
+    "warmińsko-mazurskie/działdowski": {
+      "region": "Północ",
+      "handlowiec": "Handlowiec 1",
+      "baza": "Rumia"
+    },
+    "warmińsko-mazurskie/elbląski": {
+      "region": "Północ",
+      "handlowiec": "Handlowiec 1",
+      "baza": "Rumia"
+    },
+    "warmińsko-mazurskie/ełcki": {
+      "region": "Północ",
+      "handlowiec": "Handlowiec 1",
+      "baza": "Rumia"
+    },
+    "warmińsko-mazurskie/giżycki": {
+      "region": "Północ",
+      "handlowiec": "Handlowiec 1",
+      "baza": "Rumia"
+    },
+    "warmińsko-mazurskie/gołdapski": {
+      "region": "Północ",
+      "handlowiec": "Handlowiec 1",
+      "baza": "Rumia"
+    },
+    "warmińsko-mazurskie/iławski": {
+      "region": "Północ",
+      "handlowiec": "Handlowiec 1",
+      "baza": "Rumia"
+    },
+    "warmińsko-mazurskie/kętrzyński": {
+      "region": "Północ",
+      "handlowiec": "Handlowiec 1",
+      "baza": "Rumia"
+    },
+    "warmińsko-mazurskie/lidzbarski": {
+      "region": "Północ",
+      "handlowiec": "Handlowiec 1",
+      "baza": "Rumia"
+    },
+    "warmińsko-mazurskie/mrągowski": {
+      "region": "Północ",
+      "handlowiec": "Handlowiec 1",
+      "baza": "Rumia"
+    },
+    "warmińsko-mazurskie/nidzicki": {
+      "region": "Północ",
+      "handlowiec": "Handlowiec 1",
+      "baza": "Rumia"
+    },
+    "warmińsko-mazurskie/nowomiejski": {
+      "region": "Północ",
+      "handlowiec": "Handlowiec 1",
+      "baza": "Rumia"
+    },
+    "warmińsko-mazurskie/olecki": {
+      "region": "Północ",
+      "handlowiec": "Handlowiec 1",
+      "baza": "Rumia"
+    },
+    "warmińsko-mazurskie/olsztyński": {
+      "region": "Północ",
+      "handlowiec": "Handlowiec 1",
+      "baza": "Rumia"
+    },
+    "warmińsko-mazurskie/ostródzki": {
+      "region": "Północ",
+      "handlowiec": "Handlowiec 1",
+      "baza": "Rumia"
+    },
+    "warmińsko-mazurskie/piski": {
+      "region": "Północ",
+      "handlowiec": "Handlowiec 1",
+      "baza": "Rumia"
+    },
+    "warmińsko-mazurskie/szczycieński": {
+      "region": "Północ",
+      "handlowiec": "Handlowiec 1",
+      "baza": "Rumia"
+    },
+    "warmińsko-mazurskie/węgorzewski": {
+      "region": "Północ",
+      "handlowiec": "Handlowiec 1",
+      "baza": "Rumia"
+    },
+    "wielkopolskie/poznań": {
+      "region": "Północ",
+      "handlowiec": "Handlowiec 1",
+      "baza": "Rumia"
+    },
+    "wielkopolskie/kalisz": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "wielkopolskie/konin": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "wielkopolskie/leszno": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "wielkopolskie/chodzieski": {
+      "region": "Północ",
+      "handlowiec": "Handlowiec 1",
+      "baza": "Rumia"
+    },
+    "wielkopolskie/czarnkowsko-trzcianecki": {
+      "region": "Północ",
+      "handlowiec": "Handlowiec 1",
+      "baza": "Rumia"
+    },
+    "wielkopolskie/gnieźnieński": {
+      "region": "Północ",
+      "handlowiec": "Handlowiec 1",
+      "baza": "Rumia"
+    },
+    "wielkopolskie/gostyński": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "wielkopolskie/grodziski": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "wielkopolskie/jarociński": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "wielkopolskie/kaliski": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "wielkopolskie/kępiński": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "wielkopolskie/kolski": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "wielkopolskie/koniński": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "wielkopolskie/kościański": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "wielkopolskie/krotoszyński": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "wielkopolskie/leszczyński": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "wielkopolskie/międzychodzki": {
+      "region": "Północ",
+      "handlowiec": "Handlowiec 1",
+      "baza": "Rumia"
+    },
+    "wielkopolskie/nowotomyski": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "wielkopolskie/obornicki": {
+      "region": "Północ",
+      "handlowiec": "Handlowiec 1",
+      "baza": "Rumia"
+    },
+    "wielkopolskie/ostrowski": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "wielkopolskie/ostrzeszowski": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "wielkopolskie/pilski": {
+      "region": "Północ",
+      "handlowiec": "Handlowiec 1",
+      "baza": "Rumia"
+    },
+    "wielkopolskie/pleszewski": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "wielkopolskie/poznański": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "wielkopolskie/rawicki": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "wielkopolskie/słupecki": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "wielkopolskie/szamotulski": {
+      "region": "Północ",
+      "handlowiec": "Handlowiec 1",
+      "baza": "Rumia"
+    },
+    "wielkopolskie/średzki": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "wielkopolskie/śremski": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "wielkopolskie/turecki": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "wielkopolskie/wągrowiecki": {
+      "region": "Północ",
+      "handlowiec": "Handlowiec 1",
+      "baza": "Rumia"
+    },
+    "wielkopolskie/wolsztyński": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "wielkopolskie/wrzesiński": {
+      "region": "Centrum",
+      "handlowiec": "Handlowiec 2",
+      "baza": "Łódź"
+    },
+    "wielkopolskie/złotowski": {
+      "region": "Północ",
+      "handlowiec": "Handlowiec 1",
+      "baza": "Rumia"
+    },
+    "zachodniopomorskie/szczecin": {
+      "region": "Północ",
+      "handlowiec": "Handlowiec 1",
+      "baza": "Rumia"
+    },
+    "zachodniopomorskie/koszalin": {
+      "region": "Północ",
+      "handlowiec": "Handlowiec 1",
+      "baza": "Rumia"
+    },
+    "zachodniopomorskie/świnoujście": {
+      "region": "Północ",
+      "handlowiec": "Handlowiec 1",
+      "baza": "Rumia"
+    },
+    "zachodniopomorskie/białogardzki": {
+      "region": "Północ",
+      "handlowiec": "Handlowiec 1",
+      "baza": "Rumia"
+    },
+    "zachodniopomorskie/choszczeński": {
+      "region": "Północ",
+      "handlowiec": "Handlowiec 1",
+      "baza": "Rumia"
+    },
+    "zachodniopomorskie/drawski": {
+      "region": "Północ",
+      "handlowiec": "Handlowiec 1",
+      "baza": "Rumia"
+    },
+    "zachodniopomorskie/goleniowski": {
+      "region": "Północ",
+      "handlowiec": "Handlowiec 1",
+      "baza": "Rumia"
+    },
+    "zachodniopomorskie/gryficki": {
+      "region": "Północ",
+      "handlowiec": "Handlowiec 1",
+      "baza": "Rumia"
+    },
+    "zachodniopomorskie/gryfiński": {
+      "region": "Północ",
+      "handlowiec": "Handlowiec 1",
+      "baza": "Rumia"
+    },
+    "zachodniopomorskie/kamieński": {
+      "region": "Północ",
+      "handlowiec": "Handlowiec 1",
+      "baza": "Rumia"
+    },
+    "zachodniopomorskie/kołobrzeski": {
+      "region": "Północ",
+      "handlowiec": "Handlowiec 1",
+      "baza": "Rumia"
+    },
+    "zachodniopomorskie/koszaliński": {
+      "region": "Północ",
+      "handlowiec": "Handlowiec 1",
+      "baza": "Rumia"
+    },
+    "zachodniopomorskie/łobeski": {
+      "region": "Północ",
+      "handlowiec": "Handlowiec 1",
+      "baza": "Rumia"
+    },
+    "zachodniopomorskie/myśliborski": {
+      "region": "Północ",
+      "handlowiec": "Handlowiec 1",
+      "baza": "Rumia"
+    },
+    "zachodniopomorskie/policki": {
+      "region": "Północ",
+      "handlowiec": "Handlowiec 1",
+      "baza": "Rumia"
+    },
+    "zachodniopomorskie/pyrzycki": {
+      "region": "Północ",
+      "handlowiec": "Handlowiec 1",
+      "baza": "Rumia"
+    },
+    "zachodniopomorskie/sławieński": {
+      "region": "Północ",
+      "handlowiec": "Handlowiec 1",
+      "baza": "Rumia"
+    },
+    "zachodniopomorskie/stargardzki": {
+      "region": "Północ",
+      "handlowiec": "Handlowiec 1",
+      "baza": "Rumia"
+    },
+    "zachodniopomorskie/szczecinecki": {
+      "region": "Północ",
+      "handlowiec": "Handlowiec 1",
+      "baza": "Rumia"
+    },
+    "zachodniopomorskie/świdwiński": {
+      "region": "Północ",
+      "handlowiec": "Handlowiec 1",
+      "baza": "Rumia"
+    },
+    "zachodniopomorskie/wałecki": {
+      "region": "Północ",
+      "handlowiec": "Handlowiec 1",
+      "baza": "Rumia"
+    }
+  }
+}
