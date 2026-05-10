@@ -4,6 +4,7 @@ import { MapView } from './components/MapView';
 import { ExportView } from './components/ExportView';
 import { parseExcelData } from './lib/parseExcel';
 import { buildFeatureMap } from './lib/matchCounties';
+import { downloadSVG, downloadPNG } from './lib/exportMap';
 import defaultCrmData from './data/crm-data.json';
 import gadmCrmMap from './data/gadm-crm-map.json';
 
@@ -45,8 +46,12 @@ export default function App() {
         scale={scale}
         onScaleChange={setScale}
         onFileUpload={handleFileUpload}
-        onExportSVG={() => {/* wired in Task 9 */}}
-        onExportPNG={() => {/* wired in Task 9 */}}
+        onExportSVG={() => {
+          if (exportSvgRef.current) downloadSVG(exportSvgRef.current);
+        }}
+        onExportPNG={async () => {
+          if (exportSvgRef.current) await downloadPNG(exportSvgRef.current);
+        }}
       />
       <div style={{ flex: 1, overflow: 'hidden', position: 'relative' }}>
         {featureMap ? (
